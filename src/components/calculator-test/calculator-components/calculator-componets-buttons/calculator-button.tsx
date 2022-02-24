@@ -24,9 +24,7 @@ export class Mycomponent {
       <button name="number" class="number-button__key number" value="3">3</button>
       <button name="operator" class="number-button__key operator less" value="-">-</button>
       <button name="number" class="number-button__key number" value="0">0</button>
-
       <button name="result" class="number-button__key operator" value="=">=</button>
-
       <button name="operator" class="number-button__key operator" value="*">x</button>
       <button name="operator" class="number-button__key operator" value="/">/</button>
     </div>
