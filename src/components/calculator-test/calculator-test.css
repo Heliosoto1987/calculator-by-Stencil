@@ -1,0 +1,38 @@
+.calculator {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.calculator__container {
+  text-align: end;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 350px;
+}
+
+.calculator__screen {
+  width: 100%;
+  padding: 2rem 0;
+  background-color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+
+.calculator__register {
+  display: flex;
+  padding: 1.5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  overflow: auto;
+  align-items: center;
+}
+
+.register__data {
+  padding: 5px;
+}

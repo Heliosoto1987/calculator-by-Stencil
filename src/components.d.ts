@@ -6,56 +6,45 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
-    interface MyComponent {
-        /**
-          * The first name
-         */
-        "first": string;
-        /**
-          * The last name
-         */
-        "last": string;
-        /**
-          * The middle name
-         */
-        "middle": string;
+    interface CalculatorBox {
+    }
+    interface CalculatorButton {
     }
 }
 declare global {
-    interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
+    interface HTMLCalculatorBoxElement extends Components.CalculatorBox, HTMLStencilElement {
     }
-    var HTMLMyComponentElement: {
-        prototype: HTMLMyComponentElement;
-        new (): HTMLMyComponentElement;
+    var HTMLCalculatorBoxElement: {
+        prototype: HTMLCalculatorBoxElement;
+        new (): HTMLCalculatorBoxElement;
+    };
+    interface HTMLCalculatorButtonElement extends Components.CalculatorButton, HTMLStencilElement {
+    }
+    var HTMLCalculatorButtonElement: {
+        prototype: HTMLCalculatorButtonElement;
+        new (): HTMLCalculatorButtonElement;
     };
     interface HTMLElementTagNameMap {
-        "my-component": HTMLMyComponentElement;
+        "calculator-box": HTMLCalculatorBoxElement;
+        "calculator-button": HTMLCalculatorButtonElement;
     }
 }
 declare namespace LocalJSX {
-    interface MyComponent {
-        /**
-          * The first name
-         */
-        "first"?: string;
-        /**
-          * The last name
-         */
-        "last"?: string;
-        /**
-          * The middle name
-         */
-        "middle"?: string;
+    interface CalculatorBox {
+    }
+    interface CalculatorButton {
     }
     interface IntrinsicElements {
-        "my-component": MyComponent;
+        "calculator-box": CalculatorBox;
+        "calculator-button": CalculatorButton;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
+            "calculator-box": LocalJSX.CalculatorBox & JSXBase.HTMLAttributes<HTMLCalculatorBoxElement>;
+            "calculator-button": LocalJSX.CalculatorButton & JSXBase.HTMLAttributes<HTMLCalculatorButtonElement>;
         }
     }
 }

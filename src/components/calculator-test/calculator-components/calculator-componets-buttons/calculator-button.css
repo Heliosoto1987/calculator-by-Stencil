@@ -1,0 +1,39 @@
+.number-button {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.number-button__key {
+  padding: 30px;
+  border: black solid 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.operator {
+  background-color: rgb(245, 162, 47);
+}
+
+.number-button__box {
+  width: 100%;
+}
+
+.number {
+  background-color: rgb(70, 70, 70);
+  color: white;
+}
+
+.reset {
+  font-size: 1rem;
+  padding: 15px;
+  width: 100%;
+  background-color: aqua;
+  font-weight: bold;
+}
+
+.less {
+  font-weight: bold;
+}
