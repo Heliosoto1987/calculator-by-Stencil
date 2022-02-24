@@ -1,6 +1,9 @@
 ## Project Test calculator
 
-I loved doing this project ... I wanted to do many more things to it but I only found out this week about the event and between my family and work I could not dedicate more time. I love react and that's why I chose him for this project together with sass. I wanted to make a request with fetch directly to the api where the companies were, but I got CORS problems. Sure I can do a much better job and I will prove it in the next phase of the event. Thank you.
+I loved doing this project, since it is a technology that I had never heard of, stencil.js a compiler to make web components, obviously I know what typescrit is but I had never worked on it in any project.
+It was a total challenge for me and I will surely see this code in a couple of months when I start developing in this technology and I am going to laugh at it. The truth is that the documentation on the subject of handling events seems a bit complicated to me, but I think the concept of working with web components is very simple and practical to develop with quality and speed.
+If you work with stencil I would love to receive your feedback.
+Thank you very much
 
 ## Project Status
 
