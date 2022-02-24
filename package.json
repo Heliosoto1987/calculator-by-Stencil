@@ -1,4 +1,5 @@
 {
+  "homepage":"https://Heliosoto1987.github.io/rcalculator-by-Stencil",
   "name": "test",
   "version": "0.0.1",
   "description": "Stencil Component Starter",
@@ -30,6 +31,7 @@
   },
   "devDependencies": {
     "@types/jest": "^27.0.3",
+    "gh-pages": "^3.2.3",
     "jest": "^27.4.5",
     "jest-cli": "^27.4.5",
     "puppeteer": "^10.0.0"
